@@ -30,6 +30,6 @@ resource "aws_vpc" "vpccloud" {
 resource "aws_subnet" "subnetcloud" {
   vpc_id                  = aws_vpc.vpccloud.id
   cidr_block              = "${var.subnet_range}"
-  availability_zone       = "us-central-1a"
+  availability_zone       = "${var.region}a"
 }
 

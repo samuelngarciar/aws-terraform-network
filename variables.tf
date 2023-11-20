@@ -9,5 +9,5 @@ variable "region" {
   type        = string
   description = "the vpc region"
 
-  default = "us-central-1"
+  default = "ca-central-1"
 }
