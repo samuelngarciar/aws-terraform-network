@@ -7,6 +7,6 @@ output "region_name" {
 }
 
 output "subnet_id" {
-  value = data.aws_subnet.subnetcloud.id
+  value = aws_subnet.subnetcloud.id
 }
 
