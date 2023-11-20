@@ -2,7 +2,7 @@ variable "subnet_range" {
   type        = string
   description = "range subnet"
 
-  default = "10.0.0.0/24"
+  default = "10.0.0.0/28"
 }
 
 variable "region" {
@@ -16,5 +16,5 @@ variable "vpc_range" {
   type        = string
   description = "range subnet"
 
-  default = "10.0.0.0/22"
+  default = "10.0.0.0/18"
 }
