@@ -2,7 +2,7 @@ variable "subnet_range" {
   type        = string
   description = "range subnet"
 
-  default = "10.0.0.0/28"
+  default = "10.0.0.0/27"
 }
 
 variable "region" {
