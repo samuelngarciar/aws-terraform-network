@@ -24,7 +24,7 @@ data "vault_aws_access_credentials" "creds" {
 }
 
 resource "aws_vpc" "vpccloud" {
-  cidr_block = "10.0.0.0/16"
+  cidr_block = "${var.vpc_range}"
 }
 
 resource "aws_subnet" "subnetcloud" {
