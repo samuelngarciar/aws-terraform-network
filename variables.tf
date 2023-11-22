@@ -16,5 +16,5 @@ variable "vpc_range" {
   type        = string
   description = "range subnet"
 
-  default = "10.0.0.0/18"
+  default = "10.0.0.0/19"
 }
